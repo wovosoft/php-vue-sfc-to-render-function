@@ -11,6 +11,20 @@
   convert the Vue SFC (Single File Component) to JavaScript (Vuejs) Render Function. 
 </p>
 
+## Why SCF to Render functions in php?
+
+-
+    - It is true that we can compile vue files in build time, also we can use vue-template-compiler
+      library to ineject in runtime. 
+    - And We can also use Vue SSR. There are several ways to implement it. 
+    - For SSR we need either PHP V8js extension enabled, or nodejs. 
+    - Sometimes both of these engines are not available. 
+    - Also configuring SSR in server is a bit tricky. 
+    - We can use Vue directly to our anykind of projects. 
+    - But we love Vue and we need want to have the feature of vue Single File Component (SFC).
+    - ** That's Why I feel the need of this project.  **
+
+
 ## Initial Target  
 
 -
@@ -21,6 +35,7 @@
     - The target is to use php dom parsers to read the Vue Template File, and pass the 
       data to the php render function. 
      - More details will be updated here gradually when there is a new update available.    
+
 ## Project setup
 ```
 yarn install
